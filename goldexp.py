@@ -97,9 +97,9 @@ st.markdown("""
             взаимодействия со мной, что вроде как несколько должно менять положение дел""")
 col1, col2 = st.columns(2)
 with col1:
-    st.image(r'media\rcionalizm.jpg', use_container_width=True)
+    st.image('media/rcionalizm.jpg', use_container_width=True)
 with col2:
-    st.image(r'media\numerology.jpg', use_container_width=True)
+    st.image('media/numerology.jpg', use_container_width=True)
 st.markdown("#### __________________________________________________________")
 st.markdown("""
             Огромное влияние оказывает и вероятность того, что участник знает об уникальности числа 73.
@@ -107,7 +107,7 @@ st.markdown("""
             что участник обладает подобным знанием, но как в любых других лучших произведениях
             эта задача остаётся для самостоятельного решения читателю
             """)
-st.video(r'media\sheldon73.mp4')
+st.video(r'media/sheldon73.mp4')
 
 st.markdown("""Говоря о своём любимым числе, Шелдон поясняет: «73 — это 21-е простое число. 
                Написанное наоборот оно 37 — это 12-е простое число,и если написать его наоборот — 
@@ -131,13 +131,13 @@ st.markdown("""
             """)
 col1, col2, col3, col4 = st.columns(4)
 with col1:
-    st.image(r'media\ch77.jpg', use_container_width=True)
+    st.image(r'media/ch77.jpg', use_container_width=True)
 with col2:
-    st.image(r'media\def77.jpg', use_container_width=True)
+    st.image(r'media/def77.jpg', use_container_width=True)
 with col3:
-    st.image(r'media\palindrom.jpg', use_container_width=True)
+    st.image(r'media/palindrom.jpg', use_container_width=True)
 with col4:
-    st.image(r'media\prikol.jpg', use_container_width=True)
+    st.image(r'media/prikol.jpg', use_container_width=True)
 st.markdown("""
             И всё же есть тот, на ком сошлись звёзды. Обладая всем необходимым, он выбрал число 73.
             """)
