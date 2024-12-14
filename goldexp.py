@@ -28,7 +28,7 @@ def hists(data: np.ndarray, color: str) -> plt.Figure:
         i = 543
         xti = [j for j in range(510, 590, 10)]
         xti.append(i)
-        xti.sort
+        xti.sort()
         plt.xticks(xti)
         plt.xlabel('Вес быка')
         x = np.arange(510, 580, 0.1)
