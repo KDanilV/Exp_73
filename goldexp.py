@@ -54,7 +54,7 @@ def hists(data: np.ndarray, color: str) -> plt.Figure:
     st.write(f':green[Среднее значение равно: {np.mean(data):.1f}, Отклонение: {i - np.mean(data):.1f}]')
     return fig
 
-st.set_page_config('Угадайка', page_icon=':space_invader:', initial_sidebar_state='auto')
+st.set_page_config('Угадайка', page_icon=':space_invader:', initial_sidebar_state='auto', menu_items={'GitHub': None})
 st.header(":orange[Эксперимент 73]", divider='rainbow')
 st.balloons()
 st.markdown("""
@@ -131,18 +131,18 @@ st.markdown("""
             """)
 col1, col2, col3, col4, col5 = st.columns(5)
 with col1:
-    st.image(r'media/ch77.jpg', use_container_width=True)
+    st.image(r'media/ch77.jpg', width = 300)
 with col2:
-    st.image(r'media/def77.jpg', use_container_width=True)
+    st.image(r'media/def77.jpg', width = 300)
 with col3:
-    st.image(r'media/palindrom.jpg', use_container_width=True)
+    st.image(r'media/palindrom.jpg', width = 300)
 with col4:
-    st.image(r'media/prikol.jpg', use_container_width=True)
+    st.image(r'media/prikol.jpg', width = 300)
 st.markdown("""
             И всё же есть тот, на ком сошлись звёзды. Обладая всем необходимым, он выбрал число 73.
             """)
 with col5:
-    st.image(r'media/winner.jpg', use_container_width=True)
+    st.image(r'media/winner.jpg', width = 300)
 st.markdown("#### __________________________________________________________")
 st.markdown("""Далее представлена общая статистика ответов, сравнивая с предсказаниями
                на основе вида распределения выше, можно убедиться, что предсказания хорошо описывают общий вид
