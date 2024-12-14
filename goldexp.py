@@ -84,13 +84,13 @@ selected_hist = st.selectbox("Выберите размер группы и эк
 
 with st.container(height=500):
     if selected_hist == "Ожидаемый вид распределения чисел соразмерного с Гальтоновским":
-        hists(eqv, 'orange')
+        st.pyplot(hists(eqv, 'orange'))
     elif selected_hist == "Ожидаемыйе вид распределения для 20 человек":
-        hists(known_pred, 'green')
+        st.pyplot(hists(known_pred, 'green'))
     elif selected_hist == "Ожидаемыйе вид распределения для 31 человека":
-        hists(unkk_pred, 'purple')
+        st.pyplot(hists(unkk_pred, 'purple'))
     else:
-        hists(bull, 'red')
+        st.pyplot(hists(bull, 'red'))
 st.markdown("#### __________________________________________________________")
 st.markdown("""
             Число действительно не бык, однако у большинства участников(20 человек) имелся определённый эмпирический опыт
