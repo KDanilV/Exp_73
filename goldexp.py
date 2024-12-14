@@ -129,7 +129,7 @@ st.markdown("""
             Отсутствие уникальных знаний и опыта не единственная беда, диапазон чисел [60;80]
             пестрит различными "привлекательным" значениями, что несомненно могло сбить с толку
             """)
-col1, col2, col3, col4 = st.columns(4)
+col1, col2, col3, col4, col5 = st.columns(5)
 with col1:
     st.image(r'media/ch77.jpg', use_container_width=True)
 with col2:
@@ -141,8 +141,7 @@ with col4:
 st.markdown("""
             И всё же есть тот, на ком сошлись звёзды. Обладая всем необходимым, он выбрал число 73.
             """)
-col = st.columns(1)
-with col:
+with col5:
     st.image(r'media/winner.jpg', use_container_width=True)
 st.markdown("#### __________________________________________________________")
 st.markdown("""Далее представлена общая статистика ответов, сравнивая с предсказаниями
