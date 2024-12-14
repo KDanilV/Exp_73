@@ -131,18 +131,18 @@ st.markdown("""
             """)
 col1, col2, col3, col4, col5 = st.columns(5)
 with col1:
-    st.image(r'media/ch77.jpg', width = 300)
+    st.image(r'media/ch77.jpg', width = 500)
 with col2:
-    st.image(r'media/def77.jpg', width = 300)
+    st.image(r'media/def77.jpg', width = 500)
 with col3:
-    st.image(r'media/palindrom.jpg', width = 300)
+    st.image(r'media/palindrom.jpg', width = 500)
 with col4:
-    st.image(r'media/prikol.jpg', width = 300)
+    st.image(r'media/prikol.jpg', width = 500)
 st.markdown("""
             И всё же есть тот, на ком сошлись звёзды. Обладая всем необходимым, он выбрал число 73.
             """)
 with col5:
-    st.image(r'media/winner.jpg', width = 300)
+    st.image(r'media/winner.jpg', width = 500)
 st.markdown("#### __________________________________________________________")
 st.markdown("""Далее представлена общая статистика ответов, сравнивая с предсказаниями
                на основе вида распределения выше, можно убедиться, что предсказания хорошо описывают общий вид
