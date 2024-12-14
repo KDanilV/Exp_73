@@ -84,13 +84,13 @@ selected_hist = st.selectbox("Выберите размер группы и эк
 
 with st.container(height=500):
     if selected_hist == "Ожидаемый вид распределения чисел соразмерного с Гальтоновским":
-        st.pyplot(hists(eqv, 'orange'))
+        hists(eqv, 'orange')
     elif selected_hist == "Ожидаемыйе вид распределения для 20 человек":
-        st.pyplot(hists(known_pred, 'green'))
+        hists(known_pred, 'green')
     elif selected_hist == "Ожидаемыйе вид распределения для 31 человека":
-        st.pyplot(hists(unkk_pred, 'purple'))
+        hists(unkk_pred, 'purple')
     else:
-        st.pyplot(hists(bull, 'red'))
+        hists(bull, 'red')
 st.markdown("#### __________________________________________________________")
 st.markdown("""
             Число действительно не бык, однако у большинства участников(20 человек) имелся определённый эмпирический опыт
@@ -151,7 +151,7 @@ selected_hist = st.selectbox("Выберите группу:",
                               ["Добрые Самаритяне", "Добрые Самаритяне без уникальной информации и опыта включительно"])
 
 with st.container(height=500):
-    st.pyplot(hists(known, 'green')) if selected_hist == "Добрые Самаритяне" else hists(unkk, 'purple')
+    hists(known, 'green') if selected_hist == "Добрые Самаритяне" else hists(unkk, 'purple')
 st.markdown("#### __________________________________________________________")
 st.markdown("### :orange[Благодарю всех за участие, надеюсь вы узнали что-нибудь новое, а также это очередное \
             напоминание о том, что каждый из вас важен, в частности ты, именно ты, тот кто читает сейчас этот текст! \
