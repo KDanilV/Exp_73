@@ -54,7 +54,7 @@ def hists(data: np.ndarray, color: str) -> plt.Figure:
     st.write(f':green[Среднее значение равно: {np.mean(data):.1f}, Отклонение: {i - np.mean(data):.1f}]')
     return fig
 
-st.set_page_config('Угадайка', page_icon=':space_invader:', initial_sidebar_state='auto', menu_items={'GitHub': None})
+st.set_page_config('Угадайка', page_icon=':space_invader:', initial_sidebar_state='auto', menu_items={'Get help': None, 'Report a bug': None, 'GitHub': None})
 st.header(":orange[Эксперимент 73]", divider='rainbow')
 st.balloons()
 st.markdown("""
